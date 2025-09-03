@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="build-and-test.ps1" />
+    <File Path="CodeMaid.config" />
+    <File Path="LICENSE" />
+    <File Path="nuget.ci.config" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src\AStar.Dev.Test.Helpers.Minimal.Api\AStar.Dev.Test.Helpers.Minimal.Api.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/test/" />
+  <Folder Name="/test/unit/">
+    <Project Path="test\AStar.Dev.Test.Helpers.Minimal.Api.Tests.Unit\AStar.Dev.Test.Helpers.Minimal.Api.Tests.Unit.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>
