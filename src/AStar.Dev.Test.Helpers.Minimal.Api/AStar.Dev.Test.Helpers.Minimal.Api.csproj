@@ -4,6 +4,28 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>AStar.Dev.Test.Helpers.Minimal.Api</Title>
+        <PackageReadmeFile>Readme.md</PackageReadmeFile>
+        <Authors>AStar Development, Jason Barden</Authors>
+        <Company>AStar Development</Company>
+        <Description>Contains some helper methods to make testing of the minimal APIs easier.</Description>
+        <Copyright>AStar Development</Copyright>
+        <PackageProjectUrl>https://github.com/astar-development/astar-dev-test-helpers-minimal-api</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/astar-development/astar-dev-test-helpers-minimal-api.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Minimap API Testing</PackageTags>
+        <PackageReleaseNotes>Initial creation.</PackageReleaseNotes>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <DocumentationFile>$(AssemblyName).xml</DocumentationFile>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <Version>0.1.0</Version>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageIcon>astar.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,6 +33,11 @@
         <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0"/>
 
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\astar.png" Pack="True" PackagePath="/" Link="astar.png"/>
+        <None Include="..\..\Readme.md" Pack="True" PackagePath="/" Link="Readme.md"/>
     </ItemGroup>
 
 </Project>
